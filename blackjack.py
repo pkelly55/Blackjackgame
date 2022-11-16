@@ -216,7 +216,7 @@ while True:
         
     
     # Inform Player of their chips total
-    print("\nPlayers winnings stand at", player_chips.total)
+    print("\nPlayers winnings stand at", Chips())
     
     # Ask to play again
     new_game = input("Would you like to play another hand? Enter 'y' or 'n'\t")
